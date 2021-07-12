@@ -1,0 +1,109 @@
+/* Barra de Navegación */
+nav{
+    background-color:rgb(79, 224, 230);
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-family : "Oswald";
+    font-weight: bold;
+}
+
+/* Sección Quienes somos */
+
+#Quienes-Somos{
+    background: black;
+}
+
+#Quienes-Somos div hr{
+    width: 100%;
+ /*   border: 1px solid;
+    background: black */
+}
+
+#Quienes-Somos h4{
+    font-family: "Oswald";
+    color : white;
+}
+
+.Fondo-Principal {
+    background-color:rgb(79, 224, 230);
+}
+
+/* Seccion Destacados */
+
+#Destacados{
+    background: black;
+}
+
+#Destacados div hr{
+    width: 100%;
+}
+
+#Destacados h4{
+    font-family: "Oswald";
+}
+
+/* Sección Contacto */
+
+#Contacto{
+    background: black;
+}
+
+#Contacto div hr{
+    width: 100%;
+}
+
+#Contacto h4{
+    font-family: "Oswald";
+}
+
+/* Seccion Footer */
+
+#Footer{
+    background-color:rgb(79, 224, 230);
+    height: 10;
+}
+
+#Footer h1{
+    font-family: "Oswald";
+}
+
+
+/* Seccion Sobre mi */
+
+#Sobre-mi{
+    color: #373A3C;
+
+}
+
+#Sobre-mi hr{
+    width: 115px;
+    height: 1px;
+}
+
+#Sobre-mi h4, #Sobre-mi div:last-child{   /*Los estilos se aplican tanto sobre el titulo como en los 2 parrafos */
+    font-family: "Open Sans";   /* segun la maqueta */
+    line-height: 3;    /* interlineado segun maqueta */
+}
+
+#Sobre-mi h4{          /*El titulo con semi-bold o 600 */
+    font-weight: 600;
+}  
+
+/* Hero Section */
+
+#Hero-Section{
+    height: 100vh;   /* alto imagen */
+    background: url("../img/card1.jpg"); /* Imagen de fondo */
+    background-repeat: no-repeat; /*que la imagen no se repita*/
+    background-size: cover;     /*que se expanda en todo el espacio disponible*/
+    background-position: center;   /*foco de la imagen siempre sea el centro*/
+    position: relative;    /* Padre con posicipn relativa */
+}
+
+#Hero-Section div{
+    position: absolute;    /* Padre con posicion absoluta */
+    bottom: 40px;
+    width: 100%;
+}
